@@ -9,11 +9,11 @@ namespace OOPLab3._4
 {
     class Invoice
     {
-        public int account; //счет
-        public string customer; // клиент
-        public string provider; // поставщик
-        public string article; // изделие
-        public int quantity; // количество
+        public int account; 
+        public string customer; 
+        public string provider; 
+        public string article; 
+        public int quantity; 
         public int Sum;
 
         public int GetAccountWithNds(double nds = 0.2)
